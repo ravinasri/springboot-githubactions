@@ -19,6 +19,6 @@ jobs:
         - uses: AkhileshNS/heroku-deploy@v3.4.6 # This is the action
           with:
             heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-            heroku_app_name: "springboot-github-actions"
+            heroku_app_name: "springboot-githubactions"
             heroku_email: "t.ravinacbe@gmail.com"
   
